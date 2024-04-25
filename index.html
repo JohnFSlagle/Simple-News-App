@@ -3,11 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple News App</title>
+    <title>News App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Top Headlines</h1>
-    <div id="news"></div>
-    <script src="scripts.js" type="module"></script>
+    <header>
+        <h1>Today's Top Headlines</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search for news...">
+            <button id="searchButton">Search</button>
+        </div>
+    </header>
+    
+    <div class="container" id="news"></div>
+
+    <script src="script.js" type="module"></script>
 </body>
 </html>
